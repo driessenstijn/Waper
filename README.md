@@ -35,3 +35,7 @@ $waper = new Waper('http://www.hourpendulum.com');
 $image = $waper->fetch();
 echo '<img src="'.$image.'" />';
 ```
+
+## Contributors
+
+@dragonbe
