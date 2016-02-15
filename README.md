@@ -5,7 +5,7 @@ Website Logo Scraper
 ### Installation
 
 ```sh
-composer require waper/waper/w
+composer require driessenstijn/waper/
 ```
 
 ## Why use waper?
