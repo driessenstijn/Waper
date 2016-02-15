@@ -1,19 +1,19 @@
 {
-    "name": "driessenstijn/waper",
-    "description": "This function will return the website logo url of a given website url",
-    "authors": [
-        {
-            "name": "Stijn Driessen",
-            "email": "driessen.stijn@gmail.com"
-        }
-    ],
-    "minimum-stability": "dev",
-    "require": {
-		"php": ">5.3.0"
-	},
-    "autoload": {
-        "psr-4": {
-            "Waper\\": "src/Waper/"
-        }
-	}
+  "name": "driessenstijn/waper",
+  "description": "This function will return the website logo url of a given website url",
+  "authors": [
+    {
+      "name": "Stijn Driessen",
+      "email": "driessen.stijn@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">5.3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Waper\\": "src/Waper/"
+    }
+  }
 }
