@@ -113,7 +113,7 @@ class Waper
         // putting html to dom elements to ensure to get all images
         // Please note that preg match is not working to find all images due to variety of HTML that can be obtained
         $dom = new \DOMDocument();
-        $dom->loadHTML($data['data']);
+        @$dom->loadHTML($data['data']);
 
         // we need to loop through all images until we find one with name logo
         foreach ($dom->getElementsByTagName('img') as $image) {
@@ -140,7 +140,7 @@ class Waper
         $searchKeywords = $this->getwebsite().'+logo';
         $data = $this->fetchContent('https://www.google.com/search?q='.$searchKeywords.'&tbm=isch');
         $dom = new \DomDocument();
-        $dom->loadHTML($data['data']);
+        @$dom->loadHTML($data['data']);
         foreach ($dom->getElementsByTagName('img') as $image) {
                         return $image->getAttribute('src');
         }
