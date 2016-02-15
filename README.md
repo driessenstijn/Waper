@@ -33,5 +33,5 @@ use Waper\Waper;
 
 $waper = new Waper('http://www.hourpendulum.com');
 $image = $waper->fetch();
-echo <'img src="'.$image.'" />';
+echo '<img src="'.$image.'" />';
 ```
